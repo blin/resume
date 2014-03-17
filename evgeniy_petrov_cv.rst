@@ -18,8 +18,8 @@ Summary
 I am a developer with 3 years of experience in developing, testing,
 deploying and supporting applications in python and java.
 
-Currently working as a DevOp and interested in a position that does not
-separate development and operations.
+Currently working as a DevOp and interested in a position that combines
+development and operations.
 
 
 Objective
@@ -82,7 +82,7 @@ applications that work with Zabbix monitoring system.
 #. I've initiated migration of monitoring web applications to python,
    and new ones are since written in python
 #. I've written alternative implementation of Zabbix agent in python
-   and replaced Zabbix agent in production with it
+   and replaced Zabbix agent in production with it (see Zabby below)
 
 
 Open source projects
