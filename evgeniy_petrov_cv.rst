@@ -43,29 +43,42 @@ System administration:
 
 Skills
 ------
-Python, Java:
-    written and deployed applications in production environment,
-    familiar with some internals(cpython, openjdk).
+Python:
+    I have experience in writing Python scripts and converting scripts
+    written in other languages to Python.
+    I have written several daemons in Python (for example see Zabby below).
+    I have familiarized myself with cpython implementation and I'm able to
+    answer_ questions on Python behavior by digging through cpython source
+    code.
+
+Java, JVM, JVM based languages:
+    I have written and deployed applications in production environment.
+    I have read books on JVM internals and popular JVM based languages
+    (Clojure, Scala).
+    I am using Clojure as a scripting language when solving toy problems to
+    familiarize myself with Lisp and functional programming paradigm.
 
 Linux:
-    used as desktop and server operating system,
-    comfortable with common administration tasks(on LPIC-1 level),
-    familiar with system calls and some kernel internals.
+    I am using Debian/Linux as desktop operating system.
+    I have experience creating and maintaining deb packages.
+    I have spent some time digging trough strace output.
+    I am familiar with system calls(through man pages) and some kernel internals
+    (I wanted to know how CPU accounting works so I've read Linux Kernel
+    Development by Robert Love, and studied relevant source code).
 
 System administration:
-    have experience with oncall duty,
-    have experience with segfault debugging.
+    I have administrated a group of production servers with keepalived failover.
+    I have written Puppet node configuration for aforementioned group of
+    servers.
+    I have experience with on-call duty.
+    I have some experience with segfault debugging.
 
 Relational databases:
-    have experience with PostgreSQL,
-    have some experience with query optimization,
-    written stored procedures in plpgsql.
-
-NoSQL databases:
-    have some experience with CouchDB and MongoDB.
-
-Clojure, Scala:
-    read books, written toy applications and scripts.
+    I have experience with PostgreSQL.
+    Once I've took vertical scaling one step too far and used PostgreSQL as
+    in-memory database(there was a need for complex queries, data was
+    recoverable and query speed was the main issue).
+    I have some experience with query optimization.
 
 
 Professional experience
@@ -104,5 +117,6 @@ English:
     demonstrates my English talking skills.
 
 
+.. _answer: http://stackoverflow.com/questions/20716285/what-method-does-python-2-use-to-print-tuples/20718229#20718229
 .. _Zabby: https://github.com/blin/zabby
 .. _talk: http://www.youtube.com/watch?v=vy1nMAH_TOI
