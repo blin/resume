@@ -16,9 +16,9 @@ Contact information
 Summary
 -------
 I am a developer with 3 years of experience in developing, testing,
-deploying and supporting applications in python and java.
+deploying and supporting applications in Python and Java.
 
-Currently working as a DevOp and interested in a position that combines
+Currently working as a DevOps and interested in a position that combines
 development and operations.
 
 
@@ -43,7 +43,7 @@ System administration:
 
 Skills
 ------
-Python, java:
+Python, Java:
     written and deployed applications in production environment,
     familiar with some internals(cpython, openjdk).
 
@@ -64,7 +64,7 @@ Relational databases:
 NoSQL databases:
     have some experience with CouchDB and MongoDB.
 
-Clojure, scala:
+Clojure, Scala:
     read books, written toy applications and scripts.
 
 
@@ -72,23 +72,23 @@ Professional experience
 -----------------------
 2011 - Present “I-Free”, ltd, Saint-Petersburg:
 
-I am currently working as DevOp at the department of monitoring.
+I am currently working as DevOps at the department of monitoring.
 I am responsible for development, deployment and support of monitoring
 applications that work with Zabbix monitoring system.
 
 #. I've been responsible for migration from Nagios to Zabbix
 #. I've initiated and carried out migration of all monitoring scripts from
-   bash/awk/perl/php/ruby to python
-#. I've initiated migration of monitoring web applications to python,
-   and new ones are since written in python
-#. I've written alternative implementation of Zabbix agent in python
+   bash/awk/perl/php/ruby to Python
+#. I've initiated migration of monitoring web applications to Python,
+   and new ones are since written in Python
+#. I've written alternative implementation of Zabbix agent in Python
    and replaced Zabbix agent in production with it (see Zabby below)
 
 
 Open source projects
 --------------------
 Zabby_ :
-    Writing Zabby have immensly increased my knowledge of python, unit testing,
+    Writing Zabby have immensly increased my knowledge of Python, unit testing,
     UNIX daemons, linux proc filesystem, large scale production deployments
     (deploying to several hundred servers) and backwards compatibility.
 
