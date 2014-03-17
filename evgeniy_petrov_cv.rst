@@ -88,7 +88,7 @@ applications that work with Zabbix monitoring system.
 Open source projects
 --------------------
 Zabby_ :
-    Writing Zabby have severely increased my knowledge of python, unit testing,
+    Writing Zabby have immensly increased my knowledge of python, unit testing,
     UNIX daemons, linux proc filesystem, large scale production deployments
     (deploying to several hundred servers) and backwards compatibility.
 
