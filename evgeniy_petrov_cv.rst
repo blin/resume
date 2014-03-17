@@ -99,7 +99,7 @@ Russian:
 
 English:
     I am comfortable with reading and writing English,
-    although I don't have much experience talking in it.
+    although I don't have much experience speaking it.
     Here is a talk_ I gave at Zabbix Conference 2013, I think it accurately
     demonstrates my English talking skills.
 
