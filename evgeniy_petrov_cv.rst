@@ -101,9 +101,13 @@ applications that work with Zabbix monitoring system.
 Open source projects
 --------------------
 Zabby_ :
-    Writing Zabby have immensly increased my knowledge of Python, unit testing,
-    UNIX daemons, linux proc filesystem, large scale production deployments
-    (deploying to several hundred servers) and backwards compatibility.
+    Zabby is a monitoring agent intended as a drop in replacement for Zabbix
+    agent.
+    
+    Writing Zabby have immensly increased my knowledge of Python, unit
+    testing, UNIX daemons, linux proc filesystem, large scale production
+    deployments (deploying to several hundred servers) and backwards
+    compatibility.
 
 Language skills
 ---------------
