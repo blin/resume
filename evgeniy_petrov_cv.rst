@@ -83,10 +83,10 @@ Relational databases:
 
 Professional experience
 -----------------------
-2011 - Present “I-Free”, ltd, Saint-Petersburg:
+2011 - 2014 “I-Free”, ltd, Saint-Petersburg:
 
-I am currently working as DevOps at the department of monitoring.
-I am responsible for development, deployment and support of monitoring
+I was working as DevOps at the department of monitoring.
+I was responsible for development, deployment and support of monitoring
 applications that work with Zabbix monitoring system.
 
 #. I've been responsible for migration from Nagios to Zabbix
