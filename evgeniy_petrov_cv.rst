@@ -18,8 +18,7 @@ Summary
 I am a developer with 3 years of experience in developing, testing,
 deploying and supporting applications in Python and Java.
 
-Currently working as a DevOps and interested in a position that combines
-development and operations.
+Currently interested in a position that combines development and operations.
 
 
 Objective
@@ -103,7 +102,7 @@ Open source projects
 Zabby_ :
     Zabby is a monitoring agent intended as a drop in replacement for Zabbix
     agent.
-    
+
     Writing Zabby have immensly increased my knowledge of Python, unit
     testing, UNIX daemons, linux proc filesystem, large scale production
     deployments (deploying to several hundred servers) and backwards
