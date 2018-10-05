@@ -1,125 +1,86 @@
-==============
-Evgeniy Petrov
-==============
+# Evgenii Petrov
 
+## Summary
 
-Contact information
--------------------
-:Email:
-    blinunleius@gmail.com
-:Phone:
-    +79217772560
-:Place of residence:
-    Saint-Petersburg, Russian Federation (GMT +0400)
+I am a software engineer with a lot of production experience.
 
+Currently interested in a position that focuses on development of
+infrastructure, automation and tools.
 
-Summary
--------
-I am a developer with 3 years of experience in developing, testing,
-deploying and supporting applications in Python and Java.
+## Skills
 
-Currently interested in a position that combines development and operations.
+*   Software Engineering
+    *   I can design, implement and maintain systems and tools.
+    *   I am familiar with python, java and go.
+    *   I can familiarize myself with the internal workings of the languages.
+        This allows me to
+        [answer questions](http://stackoverflow.com/questions/20716285/what-method-does-python-2-use-to-print-tuples/20718229#20718229)
+        on language behavior.
+*   Linux
+    *   I have experience creating and maintaining deb packages.
+    *   I am familiar with system calls(through man pages) and some kernel
+        internals (I wanted to know how CPU accounting works so I've read
+        Linux Kernel Development by Robert Love, and studied relevant
+        source code).
+*   SREing
+    *   I have been on two SRE teams in Google. Whatever SRE is, presumably
+        I can do it. Also I made Jennifer Petoff and Niall Murphy sign my
+        copy of [the SRE book](https://landing.google.com/sre/book.html),
+        since they worked on the same floor as me.
 
+## Professional experience
 
-Objective
----------
-I want to work in a position that would allow me to improve overall quality
-of the system through learning new skills and technologies.
+### Site Reliability Engineer at Google LLC, Dublin/London, 2014 - current
 
+I was SREing for an Ads Quality team in Dublin, and a Cloud team in London.
 
-Areas of expertise
-------------------
-Software development:
-    Requirements negotiation, design, development.
+*   I noticed discontent with configuration used by ~100 people, designed
+    a refactoring, implemented refactoring tools and executed the refactoring
+    affecting ~2000 configuration files spanning ~100000 lines of config.
+*   I evaluated alternative paths for migration from a deprecated data store
+    and designed the overall structure and critical components of the
+    migration plan. I also executed parts of that migration plan.
+*   I wrote libraries, tools and automation that made SREing easier both for
+    teams I was part of as well as other SRE teams at Google.
+*   I was on-call for critical production services, wrote postmortems for
+    outages and participated in production readiness reviews.
 
-Quality assurance:
-    Unit/Integration testing.
+### Software Engineer at I-Free Ltd, Saint-Petersburg, 2011 - 2014
 
-System administration:
-    Monitoring, configuration management, application deployment,
-    troubleshooting.
-
-
-Skills
-------
-Python:
-    I have experience in writing Python scripts and converting scripts
-    written in other languages to Python.
-    I have written several daemons in Python (for example see Zabby below).
-    I have familiarized myself with cpython implementation and I'm able to
-    answer_ questions on Python behavior by digging through cpython source
-    code.
-
-Java, JVM, JVM based languages:
-    I have written and deployed applications in production environment.
-    I have read books on JVM internals and popular JVM based languages
-    (Clojure, Scala).
-    I am using Clojure as a scripting language when solving toy problems to
-    familiarize myself with Lisp and functional programming paradigm.
-
-Linux:
-    I am using Debian/Linux as desktop operating system.
-    I have experience creating and maintaining deb packages.
-    I have spent some time digging trough strace output.
-    I am familiar with system calls(through man pages) and some kernel internals
-    (I wanted to know how CPU accounting works so I've read Linux Kernel
-    Development by Robert Love, and studied relevant source code).
-
-System administration:
-    I have administrated a group of production servers with keepalived failover.
-    I have written Puppet node configuration for aforementioned group of
-    servers.
-    I have experience with on-call duty.
-    I have some experience with segfault debugging.
-
-Relational databases:
-    I have experience with PostgreSQL.
-    Once I've took vertical scaling one step too far and used PostgreSQL as
-    in-memory database(there was a need for complex queries, data was
-    recoverable and query speed was the main issue).
-    I have some experience with query optimization.
-
-
-Professional experience
------------------------
-2011 - 2014 “I-Free”, ltd, Saint-Petersburg:
-
-I was working as DevOps at the department of monitoring.
 I was responsible for development, deployment and support of monitoring
 applications that work with Zabbix monitoring system.
 
-#. I've been responsible for migration from Nagios to Zabbix
-#. I've initiated and carried out migration of all monitoring scripts from
-   bash/awk/perl/php/ruby to Python
-#. I've initiated migration of monitoring web applications to Python,
-   and new ones are since written in Python
-#. I've written alternative implementation of Zabbix agent in Python
-   and replaced Zabbix agent in production with it (see Zabby below)
+*   I was responsible for migration from Nagios to Zabbix
+*   I initiated and carried out migration of all monitoring scripts from
+    bash/awk/perl/php/ruby to Python
+*   I initiated migration of monitoring web applications to Python,
+    and new ones are since written in Python
+*   I wrote an alternative implementation of Zabbix agent in Python
+    and replaced Zabbix agent in production with it (see Zabby below)
 
+## Open source projects
 
-Open source projects
---------------------
-Zabby_ :
-    Zabby is a monitoring agent intended as a drop in replacement for Zabbix
-    agent.
+### Zabby
 
-    Writing Zabby have immensly increased my knowledge of Python, unit
-    testing, UNIX daemons, linux proc filesystem, large scale production
-    deployments (deploying to several hundred servers) and backwards
-    compatibility.
+[Zabby](https://github.com/blin/zabby) is a monitoring agent intended to be a
+drop in replacement for Zabbix agent.
 
-Language skills
----------------
-Russian:
-    native language.
+Writing Zabby have immensely increased my knowledge of Python, unit
+testing, UNIX daemons, linux proc filesystem, large scale production
+deployments (deploying to several hundred servers) and backwards
+compatibility.
 
-English:
-    I am comfortable with reading and writing English,
-    although I don't have much experience speaking it.
-    Here is a talk_ I gave at Zabbix Conference 2013, I think it accurately
-    demonstrates my English talking skills.
+I gave a [talk about zabby](http://www.youtube.com/watch?v=vy1nMAH_TOI)
+at Zabbix Conference 2013.
 
+## Languages
 
-.. _answer: http://stackoverflow.com/questions/20716285/what-method-does-python-2-use-to-print-tuples/20718229#20718229
-.. _Zabby: https://github.com/blin/zabby
-.. _talk: http://www.youtube.com/watch?v=vy1nMAH_TOI
+*   English: proficient user(CEFR C1)
+*   Russian: native speaker
+
+## Contact information
+
+*   Email: blinunleius@gmail.com
+*   Phone: +447384439629
+*   Place of residence: London, United Kingdom
+
