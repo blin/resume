@@ -4,9 +4,6 @@
 
 I am a software engineer with a lot of production experience.
 
-Currently interested in a position that focuses on development of
-infrastructure, automation and tools.
-
 ## Skills
 
 *   Software Engineering
@@ -27,10 +24,38 @@ infrastructure, automation and tools.
         I can do it. Also I made Jennifer Petoff and Niall Murphy sign my
         copy of [the SRE book](https://landing.google.com/sre/book.html),
         since they worked on the same floor as me.
+*   [Forensic software analysis](https://chelseatroy.com/2021/01/21/reducing-technical-debt/)
+    *   I can dig deep into codebases and systems to figure out why things are
+        the way they are.
 
 ## Professional experience
 
-### Site Reliability Engineer at Google LLC, Dublin/London, 2014 - current
+### Senior Site Reliability Engineer at Arrival Ltd, London, 2019 - current
+
+Worked as a first SRE on a rapidly growing engineering team.
+
+*   Established production and staging environments
+    and patterns of use for both.
+*   Pushed for and set up on-demand deployments, which enabled rapid
+    iteration on a multitude of code bases.
+*   Established SLO, monitoring and alerting practices, evangelised the
+    use of metrics for production observation.
+*   Established oncall, incident response and postmortem practices.
+*   Ran "disaster roleplay" sessions, to get people familiar with
+    documentation, tools and practices relevant to oncall.
+*   Wrote extensive documentation on various systems relevant to production:
+    "life of a request", "life of a container image", "life of an alert".
+*   Mentored junior members of the team.
+*   Pushed for convergence of execution environments, which enabled
+    sharing of experience between R&D parts of the team
+    and software engineering parts of the team, and enabled easier integration
+    of R&D developments into core systems and products.
+*   Contributed pull requests to
+    [kubernetes/autoscaler](https://github.com/kubernetes/autoscaler/pull/3690)
+    and
+    [google/cloudprober](https://github.com/google/cloudprober/pull/434).
+
+### Site Reliability Engineer at Google LLC, Dublin/London, 2014 - 2019
 
 I was SREing for an Ads Quality team in Dublin, and a Cloud team in London.
 
