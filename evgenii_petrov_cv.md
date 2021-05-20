@@ -106,6 +106,5 @@ at Zabbix Conference 2013.
 ## Contact information
 
 *   Email: blinunleius@gmail.com
-*   Phone: +447384439629
 *   Place of residence: London, United Kingdom
 
