@@ -12,8 +12,10 @@ I am a software engineer with a lot of production experience.
         [digging into CPython implementation](http://stackoverflow.com/questions/20716285/what-method-does-python-2-use-to-print-tuples/20718229#20718229)
         to find out why self-referential tuples are printed a specific way.
     *   As in digging into Linux kernel internals to figure out
-        how CPU accounting works.
-        (with the help of Linux Kernel Development by Robert Love)
+        how CPU accounting works, along the way reading
+        Linux Kernel Development by Robert Love,
+        System Performance by Brendan Gregg and
+        The Linux Programming Interface by Michael Kerrisk.
 *   I am familiar with Python, Java and Go.
 *   I am curious about Clojure and OCaml, and FP languages in general.
 *   I am curious about theorem prooving and formal specification.
@@ -28,23 +30,29 @@ to engineering work.
 *   Researched reliability/velocity trade-offs, wrote proposals, worked with
     engineering and product stakeholders to get approval and worked
     on implementing those proposals that got approval.
-    Quantified uncertainty and Monte Carlo simulations
-    might have been involved 😉.
+    As part of the proposals I created (naive) Monte Carlo simulations
+    in Python based on subject matter expert's quantified uncertainty.
 *   Investigated technology choices appropriate for the skill set
     of people on the team to increase feature velocity,
-    proposed and led relevant migrations. Ask me about React vs htmx.
+    proposed and led relevant migrations. One such choice was to migrate a
+    UI written in TypeScript/React on the frontend with Python on the backend
+    to Python with HTMX on the backend.
 *   Provided thorough code and proposal reviews with detailed reasoning
     for suggestions, which helped both junior and senior members of the team
     to learn and improve.
 *   Noticed incompatibility in how different teams conceptualise a common system
     and came up with a shared lens that allowed the teams to agree on a
     path towards improvement.
+*   I was on-call for critical production services (running on Linux),
+    wrote postmortems for outages and participated
+    in production readiness reviews.
 
 ### Senior Site Reliability Engineer at Arrival Ltd, London, 2019 - 2021
 
 Worked as a first SRE on a rapidly growing engineering team.
 
 *   Established production and staging environments
+    (Linux on Kubernetes on AWS)
     and patterns of use for both.
 *   Pushed for and set up on-demand deployments, which enabled rapid
     iteration on a multitude of code bases.
@@ -56,7 +64,9 @@ Worked as a first SRE on a rapidly growing engineering team.
 *   Wrote extensive documentation on various systems relevant to production:
     "life of a request", "life of a container image", "life of an alert".
 *   Mentored junior members of the team.
-*   Pushed for convergence of execution environments, which enabled
+*   Pushed for convergence of execution environments
+    (Linux on AWS Batch vs Linux on Kubernetes),
+    which enabled
     sharing of experience between R&D parts of the team
     and software engineering parts of the team, and enabled easier integration
     of R&D developments into core systems and products.
@@ -77,8 +87,9 @@ I was SREing for an Ads Quality team in Dublin, and a Cloud team in London.
     migration plan. I also executed parts of that migration plan.
 *   I wrote libraries, tools and automation that made SREing easier both for
     teams I was part of as well as other SRE teams at Google.
-*   I was on-call for critical production services, wrote postmortems for
-    outages and participated in production readiness reviews.
+*   I was on-call for critical production services (running on Linux),
+    wrote postmortems for outages and participated
+    in production readiness reviews.
 
 ## Open source projects
 
@@ -101,7 +112,7 @@ as well as the underlying mathematical concepts and approaches to proofs.
 drop in replacement for Zabbix agent.
 
 Writing Zabby have immensely increased my knowledge of Python, unit
-testing, UNIX daemons, linux proc filesystem, large scale production
+testing, UNIX daemons, Linux proc filesystem, large scale production
 deployments (deploying to several hundred servers) and backwards
 compatibility.
 
